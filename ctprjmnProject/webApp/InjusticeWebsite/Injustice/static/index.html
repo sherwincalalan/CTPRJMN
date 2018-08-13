@@ -1,12 +1,7 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
   <head>
-      
-      {% load staticfiles %}
-
-
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,15 +11,10 @@
     <title>#Injustice</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel='stylesheet' href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" type='text/css' />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link rel='stylesheet' href="{% static 'css/blog-home.css' %}" type='text/css' />
-
-      
-    <!-- Bootstrap core JavaScript -->
-    <script src="{% static 'vendor\jquery\jquery.min.js' %}"></script>
-    <script src="{% static 'vendor\bootstrap\js\bootstrap.bundle.min.js' %}"></script>
+    <link href="css/blog-home.css" rel="stylesheet">
 
   </head>
 
@@ -72,7 +62,7 @@
 
           <!-- Blog Post -->
           <div class="card mb-4">
-            <img class="card-img-top" img src="{% static 'img\blacklivesmatter.jpg' %}" alt="Card image cap">
+            <img class="card-img-top" img src="C:\Users\sherwin calalan\Desktop\CTPRJMN\Project\img\blacklivesmatter.jpg" alt="Card image cap">
             <div class="card-body">
               <h2 class="card-title">#BlackLivesMatter</h2>
               <p class="card-text">
@@ -91,7 +81,7 @@
 
           <!-- Blog Post -->
           <div class="card mb-4">
-            <img class="card-img-top" src="{% static 'img\oscarsowhite.jpg' %}" alt="Card image cap">
+            <img class="card-img-top" src="C:\Users\sherwin calalan\Desktop\CTPRJMN\Project\img\oscarsowhite.jpg" alt="Card image cap">
             <div class="card-body">
               <h2 class="card-title">#OscarSoWhite</h2>
               <p class="card-text">
@@ -207,7 +197,9 @@
       <!-- /.container -->
     </footer>
 
-
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 
